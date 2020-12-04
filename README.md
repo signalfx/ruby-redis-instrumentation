@@ -12,7 +12,7 @@ This gem provides OpenTracing auto-instrumentation for commands send through the
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'redis-instrumentation'
+gem 'signalfx-redis-instrumentation'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install redis-instrumentation
+    $ gem install signalfx-redis-instrumentation
 
 ## Usage
 
