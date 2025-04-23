@@ -2,6 +2,15 @@
 
 This gem provides OpenTracing auto-instrumentation for commands send through the Redis client.
 
+
+# :warning:This repository and its published libraries are archived
+
+The ruby-redis-instrumentation reached End of Support on March 1, 2025.
+
+Splunk has adopted OpenTelemetry. Please visit official documentation page: [Instrument Ruby applications for Splunk Observability Cloud](https://docs.splunk.com/observability/en/gdi/get-data-in/application/ruby/get-started-ruby.html#get-started-ruby). Use [OpenTelemetry Ruby Instrumentation distribution](https://github.com/open-telemetry/opentelemetry-ruby) to send telemetry data to Splunk Observability Cloud. 
+Do not integrate `ruby-redis-instrumentation` into new services.
+
+
 ## Supported Versions
 
 - MRI 2.0 and newer
